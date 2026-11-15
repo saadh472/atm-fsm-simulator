@@ -76,3 +76,10 @@ node --check frontend/app.js
 Run the Python command with the virtual environment interpreter. The integration suite uses a temporary database to verify persistence, PIN lockout, inquiry fees, duplicate submissions, simultaneous withdrawals, and retries after a database lock. GitHub Actions runs the suite on Linux and Windows.
 
 The simulator is an educational project for localhost and fictional data. The shared demo PIN, sample accounts, and reset controls are part of the simulation.
+
+## Security and license
+
+See [SECURITY.md](SECURITY.md) for private vulnerability reporting and supported scope. Secret scanning, code scanning, and automated dependency alerts are enabled while the repository stays public. Passing checks do not establish production readiness.
+
+Original application code is available under [MIT](LICENSE). Dependency licenses and retained attribution are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The simulator uses fictional accounts and does not connect to a bank or payment network.
+
